@@ -16,16 +16,12 @@ contract LandRecord{
         legalId=newlegalId;
     }
     
-    function setDetails(string newOwner,uint newValue,string newLocation, string newArea, string newlegalId) public
+    function setDetails(string newOwner,uint newValue) public
     {
         owner=newOwner;
         value=newValue;
-        location=newLocation;
-        area=newArea;
-        legalId=newlegalId;
     }
     
-    //function getDetails() public view returns(string owner, uint value, string location, string area, string legalId)
     function getDetails() public view returns(string, uint, string, string, string)
     {
         return (owner,value,location,area,legalId);
