@@ -1,3 +1,8 @@
+//Make a Ethereum based Report Card Submission smart contract and deploy it on Ropston network. 
+//Input - name, rollNo, batch, marks of 4 subjects and status(Pass or Fail)
+//Host it on a Ropston Network with Test Ethers
+//Submit solidity file and smart contract address.
+
 pragma solidity ^0.4.17 ;
 
 contract Submission
